@@ -1,0 +1,249 @@
+*{
+    color: aquamarine;
+    cursor: url('./cursor.png'), auto;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    text-align: center;
+    font-size: 50px;
+}
+.menu{
+    position: fixed !important;
+    top: 1vmax !important;
+    left: 95vmax !important;
+    width: 2vmax !important;
+    height: 2vmax;
+    border-radius: 50%;
+
+}
+
+#clubLogo{
+    position:relative;
+    top: 0vmx;
+    left: 0%;
+}
+#vitLogo{
+    position:relative;
+    top: 0vmx;
+    left: 70%;
+}
+
+body {
+    background-image: url('bg1.jpg');
+    background-repeat: repeat;
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: url('./cursor.png'), auto;
+  }
+
+
+a{
+    font-size: 30px;
+    margin-left: 15%;
+    color: aqua;
+}
+
+
+.headerP{
+    position: relative;
+    left: 30%;
+    color: red !important;
+    font-size: 50px;
+}
+
+#start{
+    position: relative;
+    left: 5vmax !important;
+    color:white !important;
+    border: 2px solid;
+    border-radius: 20px;
+    max-width: 40vmax !important;
+    height: auto;
+    padding-left: 1vmax;
+    padding-right: 1vmax;
+}
+
+#h2-start{
+    opacity: 1;
+    color: white;
+    font-size: 3vmax !important;
+    font-style: bold underline;
+}
+
+#p-start{
+    color: white !important;
+    opacity: 0.7;
+    font-size: larger;
+}
+
+.heading{
+    text-align:center !important;
+}
+
+#events{
+    position: relative;
+    margin-bottom: 12%;
+}
+/* Cards */
+.container{
+    position: relative !important;
+    top: 0%;
+    left: 30%;
+    text-align: center;
+    font-size: 20px;
+    width: fit-content;
+    height: auto;
+    margin: 1vmax;
+    padding: 1vmax;
+}
+
+.one, .two, .three, .four, .five, .six,.seven{
+    position: absolute;
+    left:90%;
+    height: 15vmax;
+    width: 15vmax;
+    border:solid 3px;
+    border-radius: 10px;
+    border-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.one{
+    top: 10px;
+    left:10px;
+    color: black;
+    background-color: aqua;
+}
+
+.two{
+    top: 10px;
+    left:30px;
+    color: green;
+    background-color: blue;
+}
+
+.three{
+    top: 10px;
+    left:50px;
+    color: pink;
+    background-color: white;
+}
+
+.four{
+    top: 10px;
+    left:70px;
+    color: black;
+    background-color: aqua;
+}
+
+.five{
+    top: 10px;
+    left:90px;
+    color: rgb(15, 104, 3);
+    background-color: rgb(221, 15, 217);
+}
+
+.six{
+    top:10px;
+    left:110px;
+    color: black;
+    background-color: pink;
+}
+
+.seven{
+    top:10px;
+    left:130px;
+    color: black;
+    background-color: red;
+}
+
+
+.three1{
+    font-size:50px;
+    color:red;
+}
+
+.four1{
+    font-size:45px;
+    color:pink;
+}
+
+.five1{
+    font-size:50px;
+    color:rgb(248, 47, 80);
+}
+
+.anime {
+    position: absolute;
+    height: 17vmax;
+    width: 17vmax;
+    border: solid 3px;
+    border-radius: 10px;
+    border-color: black;
+    background-color: lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: center;
+    animation: fade 1s forwards;
+    opacity: 1;
+  }
+  
+
+  
+  @keyframes fade {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+      width: 0px;
+    }
+  }
+  
+ 
+/* Join */
+
+#join{
+    position: static !important;
+    padding: top 5vmax ;
+    top: 20%;
+}
+
+.join-button{
+    height: 3vmax ;
+    width: 10vmax ;
+    border-radius:15% ;
+}
+
+#contacts{
+    position: static !important;
+    top: 25%;
+}
+
+#self{
+    width: 20vmax ;
+    height: 20vmax;
+    position: relative;
+    left: 0vmax ;
+}
+
+#self:hover{
+    transition: 0.2s;
+    scale: 1.1;
+}
+
+.footer{
+    position: static !important;
+    top:100%;
+}
+
+.footer-text{
+    opacity: 0.6;
+    font-size: medium;
+}
