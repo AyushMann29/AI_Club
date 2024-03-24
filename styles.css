@@ -56,6 +56,11 @@ a{
     font-size: 50px;
 }
 
+.nav{
+    display: flex !important;
+    justify-content: flex-start;
+}
+
 #start{
     position: relative;
     left: 5vmax !important;
