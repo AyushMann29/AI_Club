@@ -93,13 +93,14 @@ a{
 .container{
     position: relative !important;
     top: 0%;
-    left: 30%;
+    left: 37%;
     text-align: center;
     font-size: 20px;
     width: fit-content;
     height: auto;
     margin: 1vmax;
     padding: 1vmax;
+    opacity: 0.9;
 }
 
 .one, .two, .three, .four, .five, .six,.seven{
@@ -183,10 +184,6 @@ a{
     position: absolute;
     height: 17vmax;
     width: 17vmax;
-    border: solid 3px;
-    border-radius: 10px;
-    border-color: black;
-    background-color: lightblue;
     font-family: Arial, Helvetica, sans-serif;
     color: black;
     text-align: center;
@@ -209,10 +206,31 @@ a{
  
 /* Join */
 
+.mid{
+    display: flex;
+    justify-content: center;
+}
+
 #join{
-    position: static !important;
+    position: relative !important;
     padding: top 5vmax ;
-    top: 20%;
+    top: 5vmax !important;
+    background-color: gray !important;
+    width: 35vmax;
+    height: 43vmax ;
+    border: 0.2vmax black solid ;
+    border-radius: 2%;
+    opacity: 0.9;
+}
+
+#thumbs-up{
+    width: 23vmax !important;
+    height: 25vmax !important;
+}
+
+.join{
+    opacity: 0.9;
+    font-size: large;
 }
 
 .join-button{
@@ -222,15 +240,15 @@ a{
 }
 
 #contacts{
-    position: static !important;
-    top: 25%;
+    position: relative !important;
+    top: 5vmax;
 }
 
 #self{
     width: 20vmax ;
     height: 20vmax;
-    position: relative;
-    left: 0vmax ;
+ 
+
 }
 
 #self:hover{
@@ -239,11 +257,21 @@ a{
 }
 
 .footer{
-    position: static !important;
-    top:100%;
+    position: relative !important;
+
+}
+
+.footer-end{
+    display: flex !important;
+    justify-content: flex-start;
+    /* align-items: start !important; */
 }
 
 .footer-text{
     opacity: 0.6;
     font-size: medium;
+}
+
+.footer-text:hover{
+    cursor:pointer !important;
 }
